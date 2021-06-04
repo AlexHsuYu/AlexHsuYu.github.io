@@ -27,7 +27,7 @@
   <meta name="description" content="Repo：https:&#x2F;&#x2F;github.com&#x2F;AlexHsuYu&#x2F;ClumsyChickens.git 簡介 利用深度學習進行各週期雞隻體重估測，首先透過 IP camera 擷取影像，藉由docker 所架設的nginx-rtmp 伺服器進行影像串流，使用Mask RCNN對於雞隻進行目標檢測與 Deep SORT進行雞隻多目標追蹤，將所獲得的具有時序性質的特徵資料，餵入SVR進行屠齡體重估">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基於深度學習技術實現雞隻追蹤與體重估測">
-<meta property="og:url" content="http://example.com/2020/10/23/index/index.html">
+<meta property="og:url" content="http://example.com/2020/10/23/master_thesis/index.html">
 <meta property="og:site_name" content="Alex hsu&#39;s blog">
 <meta property="og:description" content="Repo：https:&#x2F;&#x2F;github.com&#x2F;AlexHsuYu&#x2F;ClumsyChickens.git 簡介 利用深度學習進行各週期雞隻體重估測，首先透過 IP camera 擷取影像，藉由docker 所架設的nginx-rtmp 伺服器進行影像串流，使用Mask RCNN對於雞隻進行目標檢測與 Deep SORT進行雞隻多目標追蹤，將所獲得的具有時序性質的特徵資料，餵入SVR進行屠齡體重估">
 <meta property="og:locale" content="en_US">
@@ -37,13 +37,13 @@
 <meta property="og:image" content="http://example.com/uploads/master_thesis/12week.jpg">
 <meta property="og:image" content="http://example.com/uploads/master_thesis/12week_1.png">
 <meta property="article:published_time" content="2020-10-23T00:28:46.000Z">
-<meta property="article:modified_time" content="2021-06-04T13:27:48.405Z">
+<meta property="article:modified_time" content="2021-06-04T13:51:13.500Z">
 <meta property="article:author" content="Alex hsu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/uploads/master_thesis/demo.gif">
 
 
-<link rel="canonical" href="http://example.com/2020/10/23/index/">
+<link rel="canonical" href="http://example.com/2020/10/23/master_thesis/">
 
 
 <script class="page-configurations">
@@ -188,7 +188,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B0%A1%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">簡介</span></a></li></ol></div>
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B0%A1%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">簡介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B5%90%E8%AB%96"><span class="nav-number">2.</span> <span class="nav-text">結論</span></a></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -257,7 +257,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/23/index/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/23/master_thesis/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -288,7 +288,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-06-04 21:27:48" itemprop="dateModified" datetime="2021-06-04T21:27:48+08:00">2021-06-04</time>
+        <time title="Modified: 2021-06-04 21:51:13" itemprop="dateModified" datetime="2021-06-04T21:51:13+08:00">2021-06-04</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -315,6 +315,8 @@
 <h1 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h1><blockquote>
 <p>利用深度學習進行各週期雞隻體重估測，首先透過 IP camera 擷取影像，藉由docker 所架設的nginx-rtmp 伺服器進行影像串流，使用Mask RCNN對於雞隻進行目標檢測與 Deep SORT進行雞隻多目標追蹤，將所獲得的具有時序性質的特徵資料，餵入SVR進行屠齡體重估測所獲得的mean absolute error 為101g，誤差約為5%左右。</p>
 </blockquote>
+<a id="more"></a>
+
 <blockquote>
 <p>6 week</p>
 </blockquote>
@@ -332,8 +334,7 @@
   <img src="/uploads/master_thesis/12week_1.png" width="300" />
 </p>
 
-
-
+<h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1>
     </div>
 
     
@@ -455,8 +456,8 @@
 
 <script>
   var disqus_config = function() {
-    this.page.url = "http://example.com/2020/10/23/index/";
-    this.page.identifier = "2020/10/23/index/";
+    this.page.url = "http://example.com/2020/10/23/master_thesis/";
+    this.page.identifier = "2020/10/23/master_thesis/";
     this.page.title = "基於深度學習技術實現雞隻追蹤與體重估測";
     };
   NexT.utils.loadComments('#disqus_thread', () => {
