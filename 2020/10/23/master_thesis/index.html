@@ -32,14 +32,12 @@
 <meta property="og:description" content="Repo：https:&#x2F;&#x2F;github.com&#x2F;AlexHsuYu&#x2F;ClumsyChickens.git 簡介 利用深度學習進行各週期雞隻體重估測，首先透過 IP camera 擷取影像，藉由docker 所架設的nginx-rtmp 伺服器進行影像串流，使用Mask RCNN對於雞隻進行目標檢測與 Deep SORT進行雞隻多目標追蹤，將所獲得的具有時序性質的特徵資料，餵入SVR進行屠齡體重估">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/uploads/master_thesis/demo.gif">
-<meta property="og:image" content="http://example.com/uploads/master_thesis/6week.png">
-<meta property="og:image" content="http://example.com/uploads/master_thesis/6week_1.png">
-<meta property="og:image" content="http://example.com/uploads/master_thesis/6week.png">
-<meta property="og:image" content="http://example.com/uploads/master_thesis/6week_1.png">
 <meta property="og:image" content="http://example.com/uploads/master_thesis/12week.jpg">
 <meta property="og:image" content="http://example.com/uploads/master_thesis/12week_1.png">
+<meta property="og:image" content="http://example.com/uploads/master_thesis/14week.jpg">
+<meta property="og:image" content="http://example.com/uploads/master_thesis/14week_1.png">
 <meta property="article:published_time" content="2020-10-23T00:28:46.000Z">
-<meta property="article:modified_time" content="2021-08-18T07:48:49.464Z">
+<meta property="article:modified_time" content="2021-08-21T14:06:14.411Z">
 <meta property="article:author" content="Alex hsu">
 <meta property="article:tag" content="python">
 <meta property="article:tag" content="deep learning">
@@ -298,7 +296,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-08-18 15:48:49" itemprop="dateModified" datetime="2021-08-18T15:48:49+08:00">2021-08-18</time>
+        <time title="Modified: 2021-08-21 22:06:14" itemprop="dateModified" datetime="2021-08-21T22:06:14+08:00">2021-08-21</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -356,25 +354,21 @@
 </tr>
 </tbody></table>
 <blockquote>
-<p>6 week</p>
-</blockquote>
-<!-- <p float="left">
-  <img src="/uploads/master_thesis/6week.png" width="400" />
-  <img src="/uploads/master_thesis/6week_1.png" width="400" />
-</p> -->
-
-<p float="left">
-<div style="display:inline-block;"><img src="/uploads/master_thesis/6week.png" width="400" /></div>  
-<div style="display:inline-block;margin-left:10px;"><img src="/uploads/master_thesis/6week_1.png" width="400" /></div>
-</p>
-
-<blockquote>
 <p>12 week</p>
 </blockquote>
 <p float="left">
 <div style="display:inline-block;"><img src="/uploads/master_thesis/12week.jpg" width="400" /></div>  
 <div style="display:inline-block;margin-left:10px;"><img src="/uploads/master_thesis/12week_1.png" width="400" /></div>
 </p>
+
+<blockquote>
+<p>14 week</p>
+</blockquote>
+<p float="left">
+<div style="display:inline-block;"><img src="/uploads/master_thesis/14week.jpg" width="400" /></div>  
+<div style="display:inline-block;margin-left:10px;"><img src="/uploads/master_thesis/14week_1.png" width="400" /></div>
+</p>
+
 
 <h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1><blockquote>
 <p>架設一個AIoT架構，並以RexNeXt101作為Mask RCNN backbone，並結合Deep SORT進行多目標追蹤來降低MOTA值，另一方面提出centroid tracking來降低ID switch。最後利用SVR進行體重回歸預測所獲得mean absolute error 為101g。本套系統除了用於體重估測以及透過多目標追蹤探討雞隻習性與生長情形之外，也可以將系統用於其他方面的應用。</p>
